@@ -1,0 +1,29 @@
+.Overskrift {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 124px;
+  background-color: #023436;
+  text-align: center;
+  color: #ffffff;
+  display: flex; /* Add this property */
+  justify-content: space-between; /* Add this property */
+  align-items: center; /* Add this property */
+}
+
+.overskriftTekst {
+  font-family: sans-serif;
+  font-size: 40pt;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 220px;
+}
+
+.headerBilde {
+  width: 100px;
+  height: 100px;
+  float: none;
+  margin-left: -50%;
+  cursor: pointer;
+}

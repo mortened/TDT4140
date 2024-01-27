@@ -1,0 +1,27 @@
+/*
+#knapp {
+  cursor: pointer;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 13pt;
+  font-weight: lighter;
+  text-align: center;
+  width: 200px;
+}
+
+#knapp > button:hover {
+  background-color: #0234361b;
+}
+*/
+
+.return-button {
+  background-color: #023436;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,55 @@
+.Navbar {
+  margin: 180px auto 0;
+  width: 90%;
+  height: 71px;
+  background: rgba(255, 255, 255, 0.609);
+  position: relative;
+  display: flex;
+}
+
+.Navbar > button {
+  cursor: pointer;
+  margin: 17px 2% 0;
+  width: 165px;
+  height: 37px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+}
+
+.Navbar > button:hover {
+  background-color: #0234361b;
+}
+
+@media screen and (max-width: 1050px) {
+  .Navbar .Søkefelt {
+    width: 100px;
+  }
+  .Navbar .Søkeknapp {
+    width: 40px;
+  }
+}
+
+.Searchbar {
+  margin: 17px 2% 0;
+}
+
+.Søkefelt {
+  height: 28px;
+  background: rgba(255, 255, 255, 0.8);
+  border: solid #8dcea6;
+  width: 350px;
+  cursor: pointer;
+}
+
+.Søkeknapp {
+  height: 44px;
+  background-color: #023436;
+  width: 66px;
+  border: solid #8dcea6;
+  cursor: pointer;
+  color: white;
+}

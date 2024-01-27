@@ -1,0 +1,228 @@
+.Bokside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+#bokwrapper {
+  display: flex;
+  width: 90%;
+  margin: 70px auto 0;
+  height: 75vh;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#bokwrapper > div {
+  height: 87%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bilde {
+  flex: 4;
+}
+#bilde img {
+  height: 100%;
+  width: 100%;
+}
+
+#vurderingbilde {
+  flex:2;
+}
+
+#vurderingbilde img {
+  height: 100%;
+  width: 100%;
+}
+
+#bokinfo {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 5;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.609);
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bokinfo1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+#bokinfo1 > div {
+  flex: 1;
+}
+
+#bokinfo1_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#bokinfo1_2_1 {
+  flex: 1;
+  padding-top: 30px;
+}
+
+#bokinfo1_2_2 {
+  flex: 1;
+  padding-bottom: 30px;
+}
+
+#bokinfo1_2 > div {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bokinfo2 {
+  flex: 7;
+}
+
+.goodreads-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.goodreads-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.goodreads-rating {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#vurderinger {
+  flex: 4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#vurderingsOverskrift {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.609);
+  margin-bottom: 2%;
+  text-align: center;
+  border-radius: 2%;
+}
+
+#vurderingsbokser {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+#vurderingsbokser > div {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.609);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+#vurderingsbokser > div > p {
+  padding-left: 5%;
+}
+
+#vurdering_brukernavn {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#addRating {
+  width: 185px;
+  height: 37px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0.5px;
+  border-radius: 2%;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+}
+
+
+#addRating:hover {
+  background-color: #0234361b;
+  cursor: pointer;
+}
+
+#lagVurdering {
+  width: 150px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0.5px;
+  border-radius: 2%;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+}
+
+
+#lagVurdering:hover {
+  background-color: #0234361b;
+  cursor: pointer;
+}
+
+.Bokside > button:hover {
+  background-color: #0234361b;
+}
+
+#starrating {
+  display: flex;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.brukeres-vurdering {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+#starrating span {
+  cursor: pointer;
+  display: inline-block;
+  text-shadow: 1px 1px #333;
+}
+.yellow-star {
+  color: gold;
+}
+
+.star-filled {
+  color: gold;
+}
+
+.star-unfilled {
+  color: lightgray;
+}
+
+.heart-icon {
+  margin-right: 10px;
+}
+
+.heart-icon:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.SlettVurdering {
+  background-color: rgba(255, 0, 0, 0.369);
+  border-radius: 2%;
+  cursor: pointer;
+  margin-left: 80%;
+}

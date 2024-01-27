@@ -1,0 +1,265 @@
+.dark-button {
+  background-color: #023436;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  float: right;
+  display: flex;
+}
+
+.dark-mode .Overskrift {
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+body.dark-mode {
+  background-color: rgba(28, 50, 41);
+}
+
+.dark-mode .return-button {
+  background-color: rgba(20, 20, 20, 0);
+}
+
+.dark-mode .dark-button {
+  background-color: rgba(20, 20, 20, 0);
+}
+
+.dark-mode .Forsidefelt > div {
+  background: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .h4 {
+  background-color: rgba(20, 20, 20, 0.3);
+  color: white;
+}
+
+.dark-mode .Forsidefelt > div > div {
+  color: white;
+  background: rgb(60, 60, 60, 0.8);
+}
+
+.dark-mode .Forsidefelt > div > div:hover {
+  background-color: rgba(20, 20, 20, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.dark-mode .Navbar {
+  background: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .Navbar > button {
+  background: rgb(60, 60, 60, 0.8);
+  color: white;
+}
+
+.dark-mode .Navbar > button:hover {
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .listContainer {
+  background-color: rgba(20, 20, 20, 0.75);
+  color: white;
+}
+
+.dark-mode .headline {
+  background-color: rgb(60, 60, 60, 0.8);
+}
+
+.dark-mode .link {
+  color: white;
+}
+
+.dark-mode #bokwrapper {
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .container {
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .title {
+  background-color: rgb(60, 60, 60, 0.8);
+  color: white;
+}
+
+.dark-mode .container {
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .auth-form-container {
+  background-color: rgba(20, 20, 20, 0.75);
+  color: white;
+}
+
+.dark-mode .link-btn {
+  color: white;
+  text-decoration: underline;
+}
+
+.dark-mode .Listeramme > div > div {
+  background-color: rgb(60, 60, 60, 0.8);
+  color: white;
+}
+.dark-mode #root > div > div.Forsidefelt > div > h4 {
+  color: white;
+  background: rgb(60, 60, 60, 0.8);
+}
+.dark-mode
+  #root
+  > div
+  > div.Navbar
+  > div.sc-iqcoie.kZqnfX.react-simple-widget.popup-menu-options.undefined
+  > div {
+  background: rgb(60, 60, 60);
+  border: rgba(255, 255, 255, 0.471);
+  border-style: solid;
+  color: white;
+}
+
+.dark-mode #bokinfo {
+  background: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode #vurderingsbokser > div {
+  background: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode #vurderingsOverskrift {
+  background: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode .link {
+  color: white;
+  background-color: rgb(60, 60, 60);
+}
+
+.dark-mode .userframe {
+  background: rgba(20, 20, 20);
+  border-style: none !important;
+}
+
+.dark-mode .userframe > div {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+.dark-mode .bruker {
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode .userframe > div > div > button {
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode .userframe > div > div > button:hover {
+  background-color: black;
+}
+
+.dark-mode #bookwrapper {
+  background: rgba(20, 20, 20, 0.75);
+  color: white;
+}
+
+.dark-mode #innlegg {
+  background: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode #addBook > div > button {
+  background-color: rgba(20, 20, 20, 0.75);
+  color: white;
+}
+.dark-mode #addBook > div > button:hover {
+  background-color: black;
+}
+
+.dark-mode input {
+  background-color: black;
+  color: white;
+}
+.dark-mode textarea {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode #root > div > div.Navbar > div > form > input {
+  background: rgb(156, 156, 156);
+  border: solid rgba(28, 50, 41);
+  color: black;
+}
+
+.dark-mode #root > div > div.Navbar > div > form > button {
+  background-color: rgb(60, 60, 60);
+  border: solid rgba(28, 50, 41);
+  color: white;
+}
+
+.dark-mode .Searchbar {
+  color: black;
+}
+
+.dark-mode #root > div > div.Navbar > div > form > input::placeholder {
+  color: white;
+}
+
+.dark-mode #summary {
+  background: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode #addReview > div:nth-child(1) > h4 {
+  background: rgb(104, 104, 104);
+  color: white;
+}
+
+.dark-mode #root > main > div > div > form > input {
+  background: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode #root > main > div > div > form > button {
+  background: rgb(104, 104, 104);
+  color: white;
+  margin-top: 5%;
+}
+
+.dark-mode #vurderingsbokser > div > button {
+  color: white;
+}
+
+.dark-mode #innlegg {
+  background: rgb(60, 60, 60);
+  color: white;
+}
+
+.dark-mode #\:r1\: {
+  background: black;
+  color: white;
+}
+
+.dark-mode #inputFraUser .MuiInputLabel-root {
+  color: rgb(104, 103, 103); /* Replace "red" with your desired color */
+}
+
+.dark-mode #inputFraUser > div > div {
+  background: black;
+  color: white;
+}
+
+.dark-mode #summary {
+  background: black;
+  color: white;
+}
+
+.dark-mode .footer {
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.dark-mode .genreSelect{
+  background-color:darkgray;
+}

@@ -1,0 +1,69 @@
+#bookwrapper {
+    display: flex;
+    width: 45%;
+    margin: 70px auto 0;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#innlegg{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex:5;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 90%;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+
+
+
+#inputFraUser{
+  padding: 10px;
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+#bookwrapper > div{
+    height: 87%;
+    margin:2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#addBook >  div > button {
+    cursor: pointer;
+    width: 200px; 
+    height: 37px;
+    background-color: white;
+    border: none;
+    font-size: 13pt;
+    font-weight: bold;
+    border: 0.5px solid black;
+  }
+  #addBook >  div > button:hover {
+  background-color: #0234361b;
+  }
+  
+  @media screen and (max-width: 1545px) {
+    .BookFrame {
+      display: flex;
+    }
+  }
+
+h2{
+  padding-left: 10px;
+}
+input{
+  background-color: white;
+  padding: 5px;
+  border-style: none; 
+}
+

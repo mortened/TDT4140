@@ -1,0 +1,45 @@
+/* Custom styles for the toast messages */
+
+.Toastify__toast-container {
+    z-index: 9999; /* Set z-index to ensure it displays on top of other content */
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Default toast message */
+  .Toastify__toast--default {
+    background-color: #333; 
+    color: #fff;
+  }
+  
+  /* Success toast message */
+  .Toastify__toast--success {
+    background-color: #00b894;
+    color: #fff; 
+  }
+  
+  /* Error toast message */
+  .Toastify__toast--error {
+    background-color: #e74c3c;
+    color: #fff; 
+  }
+  
+  /* Warning toast message */
+  .Toastify__toast--warning {
+    background-color: #FFA500;
+    color: #fff;
+  }
+  
+  .Toastify__toast-body {
+    font-size: 16px; 
+    padding: 10px; 
+  }
+  
+  .Toastify__toast__close-button {
+    color: #fff;
+  }
+  
+    
